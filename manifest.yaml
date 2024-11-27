@@ -1,0 +1,8 @@
+---
+name : "setup_ubuntu_desktop"
+version : "0.1.1"
+homepage : ""
+repository_url : "git@github.com:nguyentran0212/stack-starter-ubuntu-desktop.git"
+recipe_type : "configure"
+recipe_runtime : "bash" # Specify that bash is required to run this recipe
+recipe_entry : "setup_ubuntu.sh" # stack-starter would run bash start.sh 
